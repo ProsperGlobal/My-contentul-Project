@@ -1,0 +1,620 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#one{
+/* position: fixed; */
+width: 100%;
+background-color: #ffffff;
+z-index: 1000;
+height: 50px;
+font-family: "ABeeZee", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+border-radius: 500px solid white;
+/* transition: transform 0.3s ease; */
+
+
+}
+
+#two{
+margin-left: 33px;
+}
+
+#four{
+width: 100px;
+height: 30px;
+border: 2px solid black;
+padding: 4px 12px ;
+border-radius: 25px;
+
+}
+
+#five{
+margin-top: 10px;      
+}
+
+#seven{
+margin-left     : -81px;       
+   
+}
+#eight{
+display: grid;
+position: absolute;
+top: 15px;
+width: 1px ;
+background-color: #ccc; 
+height: 390px; 
+margin: 1px 396px ;
+}
+
+#nine{
+margin-left: 82px;
+margin-top: -45px;
+
+}
+
+#ten{
+margin-left: 43px;
+font-size: 14px
+
+}
+
+#eleven{
+text-align: center;
+font-size: 14px;
+margin-top: -15px;
+margin-left: 35px ;
+}
+
+#hover-image img.hidden {
+display: none;
+
+
+}
+
+#hover-image:hover img.hidden {
+display: inline-block;
+position: absolute;
+margin-left: 135px;
+margin-top: -19px; /* adjust the distance from the text */
+}
+
+#fifteen{
+display: grid;
+position: absolute;
+top: 15px;
+width: 1px ;
+background-color: #ccc; 
+height: 325px; 
+margin: 1px 440px ;
+}
+
+
+#sixteen{
+    margin-right: -500px;
+}
+
+#eighteen{
+   margin-left: 122px;
+   
+}
+
+
+#twenty{
+    font-size: 14px;
+    margin-left: 43px;
+    margin-top: -50px;
+}
+
+#tone{
+    /* display: flex;
+    gap: 90px; */
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600px;
+    background-color: #8c2eea;
+    padding: 20px 50px;
+    position: relative;
+    /* transition: transform 0.3s ease; */
+    
+
+    
+}
+
+#none{
+    margin-left: 45px;
+    margin-top: -15px;
+}
+
+#seam{
+    margin-left: 35px;
+    margin-top: -12px;
+    font-size: 14px
+}
+
+#thirty{
+    display: grid;
+    position: absolute;
+    top: 15px;
+    width: 1px ;
+    background-color: #ccc; 
+    height: 395px; 
+    margin: 1px 350px ;
+
+}
+
+#forty{
+    margin-left: 75px;
+    margin-top: -25px;
+}
+
+#fifty{
+    margin-left: 70px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* #eighty{
+
+} */
+
+#seventy{
+    text-align: center;
+    position: relative;
+    top: -600px;
+    font-size: 72px;
+}
+
+/* #hundred{
+    width: 500px;
+    height: 30px;
+    margin: -610px 520px;
+}
+
+#ninety{
+    background-color: #ffda00;
+    border: 1px solid white;
+    width: 15px;
+    border: 3px; */
+
+
+
+#twoHundred{
+   font-size: 16px;
+    white-space: nowrap; 
+    margin-left: -70px;
+   
+
+}
+
+#threeHundred{
+    width: 130px;
+    height: 50px;
+    border: 1px solid none;
+    padding: 11px 12px ;
+    border-radius: 25px;
+    margin-left: 80px;
+    margin-top: 35px;
+    background-color: #2b2d31 ;
+}
+
+#fourHundred{
+    font-size: 56px;
+    margin-top: -180px;
+    margin-left: 27px;
+}
+
+#fiveHundred{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 60px;
+}
+
+#double{
+    margin-top: 80px;
+    
+}
+
+#title{
+    font-size: 16px; 
+
+}
+
+#roundcard{
+    width: 31px;   
+    height: 30px;
+    background-color: #2b2d31;
+    border: 1px solid none;
+    border-radius: 25px;
+    margin-left: 195px;
+
+}
+
+#roundcardone{
+    width: 31px;   
+    height: 30px;
+    background-color: #2b2d31;
+    border: 1px solid none;
+    border-radius: 25px;
+    margin-left: 208px;
+}
+
+#cardtwo {
+    width: 31px;   
+    height: 30px;
+    background-color: #2b2d31;
+    border: 1px solid none;
+    border-radius: 25px;
+    margin-left: 208px;
+    margin-top: -19px;
+}
+
+#sixHundred{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    margin-top: 65px;
+    width: 1278px;
+    height: 180px;
+    border: 1px solid none;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: #eff2f6;
+}
+
+#sevenHundred{
+    width: 130px;
+    height: 50px;
+    border: 2px solid #2b2d31;
+    padding: 11px 21px ;
+    border-radius: 25px;
+    background-color: #eff2f6;
+}
+
+#eightHundred{
+    color:#2B2D31;
+    font-size: 22px;
+}
+
+#onethousand{
+    border-top: 1px solid #c4d1de;
+    width: 1268px; 
+    margin: 124px 0px 0px 45px;
+}
+
+#twothousand{
+    font-size: 56px;
+    margin-top: 117px;
+    margin-left: 38px;
+    color: black;
+}
+
+#fourthousand {
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    list-style: none;
+    margin-top: 70px;
+}
+
+#eightthousand{
+    width: 185px;
+    height: 50px;
+    border: 2px solid none;
+    padding: 11px 36px ;
+    border-radius: 25px;
+    color: white;
+    background-color: #2b2d31;
+    font-size: 16px;
+}
+
+#ninethousand{
+    width: 130px;
+    height: 50px;
+    border: 2px solid #2b2d31;
+    padding: 11px 27px ;
+    border-radius: 25px;
+}
+
+#eleventhousand{
+    display: flex;
+    gap: 50px;
+    margin-top: 115px;
+    
+}
+
+#twelvethousand{
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+}
+
+#fifteenthousand{
+    margin-left: -120px;
+}
+
+#sixtenthousand{
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+#onethosand{
+    border-top: 1px solid #c4d1de; 
+    margin: 124px 0px 0px 45px;
+    width: 1299px; 
+    margin: 63px 0px 0px 26px;
+}
+
+#diagram{
+    display: flex;
+    gap: 32px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+#onemillion{
+    /* background-color: #6b3b53;
+    width: 100PX;
+    height: 600px;
+    margin-top: -90px;
+    margin-left:-120px;
+    position: absolute; */
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600px;
+    line-height: 32.6px;
+    font-family: "ABeeZee", sans-serif;
+}
+
+#bckground{
+    width: 415px;
+    height: 200px;
+    background-color: #5f798c;
+    position: absolute;
+    margin-top: 330px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#secndbckground{
+    width: 415px;
+    height: 200px;
+    background-color: #6b3b53;
+    position: absolute;
+    margin-top: 330px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#thrdbckground{
+    width: 415px;
+    height: 200px;
+    background-color: #395e4a;
+    position: absolute;
+    margin-top: 330px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#twmillion{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600px;
+    line-height: 32.6px;
+    font-family: "ABeeZee", sans-serif;
+}
+
+#thrmillion{
+      position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600px;
+    line-height: 32.6px;
+    font-family: "ABeeZee", sans-serif;
+}
+
+#badjohn{
+    border-top: 1px solid #c4d1de; 
+    margin: 124px 0px 0px 45px;
+    width: 1302px; 
+    margin: 320px 0px 0px 24px;
+}
+
+#composable{
+    font-size: 56px;
+    color: black;
+    font-weight: 600px;
+    font-family: "ABeeZee", sans-serif;
+    margin-top: 110px;
+    margin-left: 21px;
+}
+#Storyteller{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+#Innovators{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#evolution{
+    margin-left: 175px;
+}
+
+#article{
+    width: 140px;
+    height: 47px;
+    border: 2px solid #2b2d31;
+    padding: 9px 25px ;
+    border-radius: 25px;
+    margin-top: 35px;
+    color: #2b2d31;
+}
+
+#serie {
+    width: 135px;
+    height: 47px;
+    border: 2px solid #2b2d31;
+    padding: 8px 25px ;
+    border-radius: 25px;
+    margin-left: 2px;
+    margin-top: 35px;
+    color: #2b2d31;
+}
+
+#Storytellertwo{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+#Innovatorstwo{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#articletwo{
+    width: 140px;
+    height: 47px;
+    border: 2px solid #2b2d31;
+    padding: 9px 25px ;
+    border-radius: 25px;
+    margin-top: 35px;
+    color: #2b2d31;
+}
+
+#evolutiontwo{
+    margin-left: 150px;
+}
+
+#serietwo{
+    width: 135px;
+    height: 45px;
+    border: 2px solid #2b2d31;
+    padding: 7px 23px ;
+    border-radius: 30px;
+    margin-left: 2px;
+    margin-top: 35px;
+    color: #2b2d31;
+}
+
+#roundcardthree{
+    width: 31px;   
+    height: 30px;
+    background-color: #2b2d31;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 195px;
+}
+
+#roundcardfour{
+    width: 31px;   
+    height: 30px;
+    background-color: #2b2d31;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 195px;
+}
+
+#lastbckground{
+    width: 1300px;
+    height: 590px;
+    border: 1px solid none;
+    background-color: #eff2f6;
+    margin-left: 28px;
+    margin-top: 100px;
+    border-radius: 23px;
+}
+
+#digital{
+    font-size: 56px;
+    color: #2b2d31;
+    text-align: center;
+}
+
+#platformone{
+    width: 520px;
+    height: 200px;
+    border: 1px solid none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#platformtwo{
+    width: 520px;
+    height: 200px;
+    border: 1px solid none;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+#doublecard{
+   
+}
+
+#roundcardsix{
+    width: 31px;   
+    height: 30px;
+    background-color: #2b2d31;
+    border: 1px solid none;
+    border-radius: 25px;
+    margin-left: 427px;
+}
+
+#roundcardseven{
+    width: 31px;   
+    height: 30px;
+    background-color: #2b2d31;
+    border: 1px solid none;
+    border-radius: 25px;
+    margin-left: 427px;
+}
+
+#lastlink{
+    display: flex;
+    /* gap: 125px; */
+    list-style: none;
+    margin-top: 150px;
+    margin-left: 27px;
+    text-decoration: none;
+    color: #595a57;
+}
+
+
+
+#paragraph{
+    
+}
+
+
+@media screen and (max-width:576px) {  
+     
+}
